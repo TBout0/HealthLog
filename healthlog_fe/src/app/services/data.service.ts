@@ -8,7 +8,9 @@ import { UiService } from './ui.service';
 export class DataService {
   public currentUser: User | null = null;
   public loggedIn = false;
-  constructor(private ui: UiService) {}
+  constructor(private ui: UiService) {
+    this.getPersistUser();
+  }
   getPersistUser(): void {
     let currentUser = localStorage.getItem('currentUser');
     let page = localStorage.getItem('currentPage');

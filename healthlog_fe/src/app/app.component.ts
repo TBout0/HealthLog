@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { UiService } from './services/ui.service';
+import { DataService } from './services/data.service';
 
 @Component({
   selector: 'app-root',
@@ -7,5 +8,6 @@ import { UiService } from './services/ui.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  constructor(public ui: UiService) {}
+  constructor(public ui: UiService, private data: DataService) {}
+  title = 'healthlog_fe';
 }
