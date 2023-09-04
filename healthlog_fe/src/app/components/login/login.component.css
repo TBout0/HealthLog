@@ -1,0 +1,35 @@
+.page{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+}
+.form {
+  border: 1px solid black;
+  border-radius: 30px;
+  width: 40%;
+  min-width:300px;
+  height: 80%;
+  min-height:300px;
+  text-align: center;
+  padding:2rem;
+}
+span{
+  font-size: 2rem;
+}
+mat-card-header{
+  justify-content: center;
+}
+mat-card-title {
+  font-size:x-large;
+  margin:10px;
+}
+mat-card-content {
+  display: flex;
+  flex-direction: column;
+}
+mat-checkbox{
+  margin-top:-15px;
+  margin-bottom:5px;
+}

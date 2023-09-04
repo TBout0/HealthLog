@@ -1,0 +1,46 @@
+.page{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+}
+span{
+  font-size: 2rem;
+}
+mat-card {
+  width: 500px;
+}
+mat-card-header{
+  justify-content: center;
+}
+mat-card-title {
+  font-size:x-large;
+  margin:10px;
+}
+mat-card-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+mat-form-field {
+  margin:5px;
+}
+mat-checkbox{
+  margin-top:-15px;
+  margin-left:-10px
+}
+button{
+  margin-right:-35px;
+  margin-top:-10px;
+  width:200px
+}
+mat-card-footer {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom:20px;
+}
